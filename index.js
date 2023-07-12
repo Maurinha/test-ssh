@@ -199,5 +199,5 @@ app.delete("/deletar/usuario/:id", async (req, res) => {
 
 
 app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Servidor rodando na porta ${port}`);
 });
