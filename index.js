@@ -198,6 +198,6 @@ app.delete("/deletar/usuario/:id", async (req, res) => {
 
 
 
-app.listen(port, function () => {
+app.listen(port, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
