@@ -1,6 +1,7 @@
 const express = require("express")
 const cors = require("cors")
 const app = express()
+const port = process.env.PORT || 3000;
  
 
 
@@ -197,6 +198,6 @@ app.delete("/deletar/usuario/:id", async (req, res) => {
 
 
 
-app.listen(3000, function () {
-    console.log("Servidor rodando na porta 3000")
-})
+app.listen(port, function () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
+});
